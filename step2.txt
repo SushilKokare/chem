@@ -1,0 +1,54 @@
+<div id="oxalic_droppable" class="oxalicdiv stack-top_Oxalic">
+    <img id="oxalic" src="images/beaker_Oxalic.png" class="Oxalic" height="150px;">
+</div>
+
+<div class="Pippetediv stack-top_Pippete">
+    <img id="pippete1" src="images/pippete.png" class="Pippete" height="100px;">
+    <img id="pippete2" src="images/pippete.png" class="Pippete" height="100px;" style="display: none;">
+    <img id="pippete3" src="images/pippete.png" class="Pippete" height="100px;" style="display: none;">
+</div>
+
+<div class="beakerdiv stack-top_beaker">
+    <img id="distillwater1" src="images/beaker.png" class="beaker" height="150px;">
+    <img id="distillwater2" src="images/beaker.png" class="beaker" height="150px;" style="display: none;">
+</div>
+
+
+
+<div id="conical_droppable" class="conicalflaskdiv stack-top_conicalflask">
+    <img id="con1" src="images/conical_flask.png" class="conocalflask" height="100px">
+    <img id="con2" src="images/conical_flask_with_liqid.png" class="conocalflask" height="100px" style="display: none;">
+    <img id="con3" src="images/conical_flask_with_liqid_2nd.png" class="conocalflask" height="100px" style="display: none;">
+    <img id="con4" src="images/conical_flask_with_liqid_2nd.png" class="conocalflask" height="100px" style="display: none;">
+
+</div>
+
+
+
+<div class="kmno4div stack-top_kmno4">
+    <img id="kmno41" src="images/KMNO4_acid.png" class="kmno4">
+    <img id="kmno42" src="images/KMNO4_acid.png" class="kmno4" style="display: none;">
+</div>
+
+<div id="sulphric_droppable" class="sulphuricdiv stack-top_sulphuric">
+    <img id="sulphric1" src="images/sulphric.png" class="mp" height="130px;">
+    <img id="sulphric2" src="images/sulphric.png" class="mp" height="130px;" style="display: none;">
+
+
+</div>
+
+<div id="spirit_droppable" class="spiritlampdiv stack-top_spiritlamp">
+    <img id="spirit1" src="images/spiritLamp.png" class="spirit" height="60px;">
+    <img id="spirit2" src="images/spiritLamp1.png" class="spirit" height="60px;" style="display: none;">
+    <img id="spirit3" src="images/spiritLamp.png" class="spirit" height="60px;" style="display: none;">
+
+</div>
+
+
+
+<div id="burette_droppable" class="bureteStanddiv stack-top_burete">
+    <img id="burette1" src="images/burrete with stand.png" class="burete" height=500px;>
+    <img id="burette2" src="images/burrete_with_filled_till_0_deg.png" class="burete" height=500px; style="display: none;">
+    <img id="burette3" src="images/burrete_with_filled_till_0_deg_with_conical_flask.png" class="burete" height=500px; style="display: none;">
+    <img id="burette4" src="images/first_reading_22.3-.png" class="burete" height=500px; style="display: none;">
+</div>
