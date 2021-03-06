@@ -1,0 +1,996 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: #e5e5e5;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid white;
+    float: top;
+    width: 100%;
+}
+
+.procedure {
+    background-color: #e5e5e5;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 20px;
+    float: left;
+    width: 22%;
+    height: 700px;
+}
+
+.procedure1 {
+    background-color: #e5e5e5;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 20px;
+    float: right;
+    width: 22%;
+    height: 700px;
+}
+
+.tablediv {
+    position: relative;
+    padding: 20px;
+    float: right;
+    padding-top: 300px;
+    width: 78%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* -------- Acetone ---------  */
+
+.oxalicdiv {
+    position: absolute;
+    /*right: 20px;*/
+    top: 200px;
+}
+
+.stack-top_Oxalic {
+    z-index: 9;
+    right: 70%;
+}
+
+
+/* ------ Droppe1 -------- */
+
+.Pippetediv {
+    position: absolute;
+    /*right: 20px;*/
+    top: 160px;
+}
+
+.stack-top_Pippete {
+    z-index: 1;
+    right: 71.5%;
+}
+
+
+/* ---------  beaker  --------*/
+
+.beakerdiv {
+    position: absolute;
+    /*right: 20px;*/
+    top: 200px;
+}
+
+.stack-top_beaker {
+    z-index: 9;
+    right: 60%;
+}
+
+
+/*   ---------- Dropper2 --------*/
+
+.dropper2div {
+    position: absolute;
+    /*right: 20px;*/
+    top: 160px;
+}
+
+.stack-top_dropper2 {
+    z-index: 1;
+    right: 61.5%;
+}
+
+
+/* ------- conocalflask ------*/
+
+.conicalflaskdiv {
+    position: absolute;
+    /*right: 20px;*/
+    top: 305px;
+}
+
+.stack-top_conicalflask {
+    z-index: 9;
+    right: 44%;
+}
+
+
+/* ------- Capillary Tube ------*/
+
+.ctubediv {
+    position: absolute;
+    top: 305px;
+}
+
+.stack-top_ctube {
+    z-index: 9;
+    right: 38%;
+}
+
+
+/* ------- Pencil -----*/
+
+.pencildiv {
+    position: absolute;
+    top: 320px;
+}
+
+.stack-top_pencil {
+    z-index: 9;
+    right: 36%;
+}
+
+
+/* --------- kmno4 Leaves  -----------*/
+
+.kmno4div {
+    position: absolute;
+    right: 30px;
+    top: 320px;
+}
+
+.stack-top_kmno4 {
+    z-index: 9;
+    right: 72%;
+}
+
+
+/* --------- MortarPestle  ---------*/
+
+.sulphuricdiv {
+    position: absolute;
+    top: 355px;
+}
+
+.stack-top_sulphuric {
+    z-index: 9;
+    right: 55%;
+}
+
+
+/*  --------- Watch Glass ----------*/
+
+.spiritlampdiv {
+    position: absolute;
+    top: 420px;
+}
+
+.stack-top_spiritlamp {
+    z-index: 9;
+    right: 50%;
+}
+
+
+/* --------- Chromatographic Paper  --------*/
+
+.cpdiv {
+    position: absolute;
+    top: 430px;
+}
+
+.stack-top_cp {
+    z-index: 9;
+    right: 30%;
+}
+
+
+/* ----------- Chromatography Chamber  ---------*/
+
+.bureteStanddiv {
+    position: absolute;
+    top: 220px;
+}
+
+.stack-top_burete {
+    z-index: 8;
+    right: 22%;
+}
+
+
+/*----------------Media queries-----------------------*/
+
+@media screen and (max-width: 800px) {
+    .procedure,
+    .tablediv {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .Oxalic {
+        height: 120px;
+    }
+    .oxalicdiv {
+        right: 66%;
+        top: 235px;
+    }
+    .beaker {
+        height: 120px;
+    }
+    .beakerdiv {
+        right: 57%;
+        top: 235px;
+    }
+    .Pippete {
+        height: 150px;
+    }
+    .Pippetediv {
+        top: 320px;
+        right: 80%;
+    }
+    .dropper2 {
+        height: 85px;
+    }
+    .dropper2div {
+        top: 175px;
+        right: 58%;
+    }
+    .conocalflask {
+        height: 100px;
+    }
+    .conicalflaskdiv {
+        top: 250px;
+        right: 45%;
+    }
+    .ctube {
+        height: 150px;
+    }
+    .ctubediv {
+        top: 300px;
+        right: 36%;
+    }
+    .pencil {
+        height: 60px;
+    }
+    .pencildiv {
+        top: 305px;
+        right: 34%;
+    }
+    .kmno4 {
+        height: 100px;
+    }
+    .kmno4div {
+        top: 310px;
+        left: 20%;
+    }
+    .mp {
+        height: 150px;
+    }
+    .sulphuricdiv {
+        top: 345px;
+        left: 25%;
+    }
+    .spirit {
+        height: 150px;
+    }
+    .spiritlampdiv {
+        top: 325px;
+    }
+    .cp {
+        height: 30px;
+    }
+    .cpdiv {
+        top: 370px;
+        right: 26%;
+    }
+    .burete {
+        height: 400px;
+    }
+    .bureteStanddiv {
+        top: 65px;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Oxalic {
+        height: 85px;
+    }
+    .oxalicdiv {
+        right: 66%;
+        top: 250px;
+    }
+    .beaker {
+        height: 90px;
+    }
+    .beakerdiv {
+        right: 57%;
+        top: 250px;
+    }
+    .Pippete {
+        height: 87px;
+    }
+    .Pippetediv {
+        top: 330px;
+        right: 70%;
+    }
+    .dropper2 {
+        height: 80px;
+    }
+    .dropper2div {
+        top: 175px;
+        right: 58%;
+    }
+    .conocalflask {
+        height: 70px;
+    }
+    .conicalflaskdiv {
+        top: 275px;
+        right: 42%;
+    }
+    .ctube {
+        height: 70px;
+        width: 115px;
+    }
+    .ctubediv {
+        top: 300px;
+        right: 36%;
+    }
+    .pencil {
+        height: 60px;
+    }
+    .pencildiv {
+        top: 305px;
+        right: 34%;
+    }
+    .kmno4 {
+        height: 150px;
+    }
+    .kmno4div {
+        top: 290px;
+    }
+    .mp {
+        height: 90px;
+    }
+    .sulphuricdiv {
+        top: 315px;
+        right: 65%;
+    }
+    .spirit {
+        height: 100px;
+    }
+    .spiritlampdiv {
+        top: 310px;
+        left: 50%;
+    }
+    .cp {
+        height: 30px;
+    }
+    .cpdiv {
+        top: 370px;
+        right: 26%;
+    }
+    .burete {
+        height: 180px;
+    }
+    .bureteStanddiv {
+        top: 200px;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Oxalic {
+        height: 85px;
+    }
+    .oxalicdiv {
+        right: 66%;
+        top: 250px;
+    }
+    .beaker {
+        height: 90px;
+    }
+    .beakerdiv {
+        right: 57%;
+        top: 250px;
+    }
+    .Pippete {
+        height: 87px;
+    }
+    .Pippetediv {
+        top: 330px;
+        right: 70%;
+    }
+    .dropper2 {
+        height: 80px;
+    }
+    .dropper2div {
+        top: 175px;
+        right: 58%;
+    }
+    .conocalflask {
+        height: 70px;
+    }
+    .conicalflaskdiv {
+        top: 275px;
+        right: 42%;
+    }
+    .ctube {
+        height: 70px;
+        width: 115px;
+    }
+    .ctubediv {
+        top: 300px;
+        right: 36%;
+    }
+    .pencil {
+        height: 60px;
+    }
+    .pencildiv {
+        top: 305px;
+        right: 34%;
+    }
+    .kmno4 {
+        height: 150px;
+    }
+    .kmno4div {
+        top: 250px;
+    }
+    .mp {
+        height: 100px;
+    }
+    .sulphuricdiv {
+        top: 320px;
+        right: 65%;
+    }
+    .spirit {
+        height: 100px;
+    }
+    .spiritlampdiv {
+        top: 310px;
+        left: 50%;
+    }
+    .cp {
+        height: 30px;
+    }
+    .cpdiv {
+        top: 370px;
+        right: 26%;
+    }
+    .burete {
+        height: 235px;
+    }
+    .bureteStanddiv {
+        top: 170px;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Oxalic {
+        height: 85px;
+    }
+    .oxalicdiv {
+        right: 66%;
+        top: 250px;
+    }
+    .beaker {
+        height: 90px;
+    }
+    .beakerdiv {
+        right: 57%;
+        top: 250px;
+    }
+    .Pippete {
+        height: 87px;
+    }
+    .Pippetediv {
+        top: 330px;
+        right: 70%;
+    }
+    .dropper2 {
+        height: 80px;
+    }
+    .dropper2div {
+        top: 175px;
+        right: 58%;
+    }
+    .conocalflask {
+        height: 70px;
+    }
+    .conicalflaskdiv {
+        top: 265px;
+        right: 45%;
+    }
+    .ctube {
+        height: 70px;
+        width: 115px;
+    }
+    .ctubediv {
+        top: 300px;
+        right: 36%;
+    }
+    .pencil {
+        height: 60px;
+    }
+    .pencildiv {
+        top: 305px;
+        right: 34%;
+    }
+    .kmno4 {
+        height: 155px;
+    }
+    .kmno4div {
+        top: 300px;
+    }
+    .mp {
+        height: 100px;
+    }
+    .sulphuricdiv {
+        top: 320px;
+        right: 65%;
+    }
+    .spirit {
+        height: 100px;
+    }
+    .spiritlampdiv {
+        top: 310px;
+        left: 50%;
+    }
+    .cp {
+        height: 30px;
+    }
+    .cpdiv {
+        top: 370px;
+        right: 26%;
+    }
+    .burete {
+        height: 235px;
+    }
+    .bureteStanddiv {
+        top: 170px;
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Oxalic {
+        height: 75px;
+    }
+    .oxalicdiv {
+        right: 66%;
+        top: 250px;
+    }
+    .beaker {
+        height: 70px;
+    }
+    .beakerdiv {
+        right: 57%;
+        top: 255px;
+    }
+    .Pippete {
+        height: 80px;
+    }
+    .Pippetediv {
+        top: 320px;
+        right: 70%;
+    }
+    .dropper2 {
+        height: 80px;
+    }
+    .dropper2div {
+        top: 175px;
+        right: 58%;
+    }
+    .conocalflask {
+        height: 65px;
+    }
+    .conicalflaskdiv {
+        top: 265px;
+        right: 45%;
+    }
+    .ctube {
+        height: 70px;
+        width: 115px;
+    }
+    .ctubediv {
+        top: 300px;
+        right: 36%;
+    }
+    .pencil {
+        height: 60px;
+    }
+    .pencildiv {
+        top: 305px;
+        right: 34%;
+    }
+    .kmno4 {
+        height: 155px;
+    }
+    .kmno4div {
+        top: 270px;
+    }
+    .mp {
+        height: 100px;
+    }
+    .sulphuricdiv {
+        top: 310px;
+        right: 65%;
+    }
+    .spirit {
+        height: 100px;
+    }
+    .spiritlampdiv {
+        top: 290px;
+        left: 50%;
+    }
+    .cp {
+        height: 30px;
+    }
+    .cpdiv {
+        top: 370px;
+        right: 26%;
+    }
+    .burete {
+        height: 235px;
+    }
+    .bureteStanddiv {
+        top: 145px;
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Oxalic {
+        height: 60px;
+    }
+    .oxalicdiv {
+        right: 66%;
+        top: 260px;
+    }
+    .beaker {
+        height: 60px;
+    }
+    .beakerdiv {
+        right: 57%;
+        top: 260px;
+    }
+    .Pippete {
+        height: 65px;
+    }
+    .Pippetediv {
+        top: 300px;
+        right: 73%;
+    }
+    .dropper2 {
+        height: 80px;
+    }
+    .dropper2div {
+        top: 175px;
+        right: 58%;
+    }
+    .conocalflask {
+        height: 60px;
+    }
+    .conicalflaskdiv {
+        top: 265px;
+        right: 42%;
+    }
+    .ctube {
+        height: 70px;
+        width: 115px;
+    }
+    .ctubediv {
+        top: 300px;
+        right: 36%;
+    }
+    .pencil {
+        height: 60px;
+    }
+    .pencildiv {
+        top: 305px;
+        right: 34%;
+    }
+    .kmno4 {
+        height: 145px;
+    }
+    .kmno4div {
+        top: 270px;
+    }
+    .mp {
+        height: 80px;
+    }
+    .sulphuricdiv {
+        top: 310px;
+        right: 65%;
+    }
+    .spirit {
+        height: 85px;
+    }
+    .spiritlampdiv {
+        top: 300px;
+        left: 50%;
+    }
+    .cp {
+        height: 30px;
+    }
+    .cpdiv {
+        top: 370px;
+        right: 26%;
+    }
+    .burete {
+        height: 195px;
+    }
+    .bureteStanddiv {
+        top: 175px;
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Oxalic {
+        height: 45px;
+    }
+    .oxalicdiv {
+        right: 66%;
+        top: 275px;
+    }
+    .beaker {
+        height: 45px;
+    }
+    .beakerdiv {
+        right: 57%;
+        top: 275px;
+    }
+    .Pippete {
+        height: 45px;
+    }
+    .Pippetediv {
+        top: 300px;
+        right: 73%;
+    }
+    .dropper2 {
+        height: 80px;
+    }
+    .dropper2div {
+        top: 175px;
+        right: 58%;
+    }
+    .conocalflask {
+        height: 40px;
+    }
+    .conicalflaskdiv {
+        top: 275px;
+        right: 42%;
+    }
+    .ctube {
+        height: 70px;
+        width: 115px;
+    }
+    .ctubediv {
+        top: 300px;
+        right: 36%;
+    }
+    .pencil {
+        height: 60px;
+    }
+    .pencildiv {
+        top: 305px;
+        right: 34%;
+    }
+    .kmno4 {
+        height: 100px;
+    }
+    .kmno4div {
+        top: 285px;
+    }
+    .mp {
+        height: 60px;
+    }
+    .sulphuricdiv {
+        top: 310px;
+        right: 65%;
+    }
+    .spirit {
+        height: 65px;
+    }
+    .spiritlampdiv {
+        top: 300px;
+        left: 50%;
+    }
+    .cp {
+        height: 30px;
+    }
+    .cpdiv {
+        top: 370px;
+        right: 26%;
+    }
+    .burete {
+        height: 150px;
+    }
+    .bureteStanddiv {
+        top: 200px;
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .Oxalic {
+        height: 40px;
+    }
+    .oxalicdiv {
+        right: 66%;
+        top: 275px;
+    }
+    .beaker {
+        height: 45px;
+    }
+    .beakerdiv {
+        right: 57%;
+        top: 275px;
+    }
+    .Pippete {
+        height: 45px;
+    }
+    .Pippetediv {
+        top: 300px;
+        right: 73%;
+    }
+    .dropper2 {
+        height: 80px;
+    }
+    .dropper2div {
+        top: 175px;
+        right: 58%;
+    }
+    .conocalflask {
+        height: 35px;
+    }
+    .conicalflaskdiv {
+        top: 275px;
+        right: 42%;
+    }
+    .ctube {
+        height: 70px;
+        width: 115px;
+    }
+    .ctubediv {
+        top: 300px;
+        right: 36%;
+    }
+    .pencil {
+        height: 60px;
+    }
+    .pencildiv {
+        top: 305px;
+        right: 34%;
+    }
+    .kmno4 {
+        height: 100px;
+    }
+    .kmno4div {
+        top: 285px;
+    }
+    .mp {
+        height: 50px;
+    }
+    .sulphuricdiv {
+        top: 310px;
+        right: 65%;
+    }
+    .spirit {
+        height: 50px;
+    }
+    .spiritlampdiv {
+        top: 305px;
+        left: 50%;
+    }
+    .cp {
+        height: 30px;
+    }
+    .cpdiv {
+        top: 370px;
+        right: 26%;
+    }
+    .burete {
+        height: 115px;
+    }
+    .bureteStanddiv {
+        top: 235px;
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .Oxalic {
+        height: 32px;
+    }
+    .oxalicdiv {
+        right: 66%;
+        top: 280px;
+    }
+    .beaker {
+        height: 35px;
+    }
+    .beakerdiv {
+        right: 57%;
+        top: 280px;
+    }
+    .Pippete {
+        height: 45px;
+    }
+    .Pippetediv {
+        top: 300px;
+        right: 73%;
+    }
+    .dropper2 {
+        height: 80px;
+    }
+    .dropper2div {
+        top: 175px;
+        right: 58%;
+    }
+    .conocalflask {
+        height: 30px;
+    }
+    .conicalflaskdiv {
+        top: 285px;
+        right: 42%;
+    }
+    .ctube {
+        height: 70px;
+        width: 115px;
+    }
+    .ctubediv {
+        top: 300px;
+        right: 36%;
+    }
+    .pencil {
+        height: 60px;
+    }
+    .pencildiv {
+        top: 305px;
+        right: 34%;
+    }
+    .kmno4 {
+        height: 90px;
+    }
+    .kmno4div {
+        top: 285px;
+    }
+    .mp {
+        height: 40px;
+    }
+    .sulphuricdiv {
+        top: 310px;
+        right: 65%;
+    }
+    .spirit {
+        height: 40px;
+    }
+    .spiritlampdiv {
+        top: 310px;
+        left: 50%;
+    }
+    .cp {
+        height: 30px;
+    }
+    .cpdiv {
+        top: 370px;
+        right: 26%;
+    }
+    .burete {
+        height: 115px;
+    }
+    .bureteStanddiv {
+        top: 230px;
+        right: 15%;
+    }
+}
